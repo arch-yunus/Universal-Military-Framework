@@ -39,27 +39,90 @@ Devletin en üst düzey stratejik ve politik karar mekanizmasıdır.
 
 ---
 
-### 📁 3. Operasyonel Teşkilatlanma: Beşli Güç Odakları
+### 📁 3. Operasyonel Teşkilatlanma: Beşli Güç Odakları (Operational Organization)
+UMF, klasik hiyerarşi yerine "Ağ-Merkezli" (Network-Centric) çalışan beş ana komutanlık üzerinden organize edilir.
 
-#### A. Kara ve Amfibi Operasyonlar Komutanlığı (KAOK)
-*   **HTTG (Hibrit Tabur Taktik Grubu)**: 12 saat içinde konuşlanabilen, otonom lojistik destekli birimler.
-*   **Kıyı Şeridi Savunma Ağı**: Denizden karaya geçiş yollarında otonom mayın ve EW bariyerleri.
+#### 3.1. Kara ve Amfibi Operasyonlar Komutanlığı (KAOK)
+Toprak bütünlüğünün ve kıyı şeridinin mutlak koruyucusudur.
+- **🛡️ Teşkilat Yapısı**:
+    - **Demir Pençe Tugayı (Zırhlı)**: Yeni nesil otonom MBT ve ZPT'lerden oluşan ana vuruş gücü.
+    - **Yıldırım Amfibi Alayı**: Kıyı başı tutma ve deniz-kara geçiş operasyonlarında uzmanlaşmış birlikler.
+    - **Otonom Lojistik Tümeni**: "The Nerve" verisiyle çalışan sürü taşıma araçları.
+- **🛠️ Ana Platformlar**: Altay-UMF (MBT), Ejder-S (Otonom ZPT), Boran-X (Akıllı Obüs).
 
-#### B. Aero-Uzay ve Füze Savunma Komutanlığı (AUFK)
-*   **LEO (Alçak Dünya Yörüngesi) Hakimiyeti**: ASAT savunma ve karıştırmaya dayanıklı uydu takımları.
-*   **Katmanlı Şemsiye**: Alçak (Lazer), Orta (Aktif Radar) ve Yüksek (Ekzo-Atmosferik) füze savunması.
+```mermaid
+graph TD
+    K[KAOK HQ] --> K1[Zırhlı Birlikler]
+    K --> K2[Amfibi Alaylar]
+    K --> K3[Lojistik Destek]
+    K1 --> K1a[Demir Pençe]
+    K2 --> K2a[Mavi Bereliler]
+```
 
-#### C. Deniz ve Derinlik Hakimiyet Komutanlığı (DNHK)
-*   **İDA Sürü Doktrini**: Düşman filolarını otonom botlarla (Kamikaze/Gözlem) asimetrik olarak engelleme.
-*   **Mavi Vatan Derinlik Hakimiyeti**: AIP denizaltılar ve sualtı sensör ağları ile stealth operasyonlar.
+#### 3.2. Aero-Uzay ve Füze Savunma Komutanlığı (AUFK)
+Hava sahası ve atmosfer dışı hakimiyetin merkezidir.
+- **🚀 Teşkilat Yapısı**:
+    - **Kartal Filosu (Hava Üstünlük)**: 5. ve 6. nesil uçaklarla hava sahası temizliği.
+    - **Uzay Gözlem ve ASAT Birimi**: LEO yörüngesindeki uyduların korunması ve anti-uydu sistemleri.
+    - **Çelik Kubbe Direktörlüğü**: Katmanlı füze savunma (Alçak/Orta/Yüksek) mimarisi.
+- **🛠️ Ana Platformlar**: KAAN-UMF (6. Nesil), LEO-Strike (Uydu Savar), Hisar-UMF (Füze Savunma).
 
-#### D. Siber ve Elektromanyetik Spektrum Komutanlığı (SESK)
-*   **Siber-Fiziksel Saldırı**: Kritik altyapıların (Enerji, Su, Finans) dijital yöntemlerle felç edilmesi.
-*   **Spektrum Dominasyonu**: Elektronik Harp (EH) ile düşman haberleşme ve radar sistemlerinin köreltilmesi.
+```mermaid
+graph TD
+    A[AUFK HQ] --> A1[Hava Üstünlük]
+    A --> A2[Uzay Birimi]
+    A --> A3[Füze Savunma]
+    A1 --> A1a[Kartal Filosu]
+    A2 --> A2a[LEO-Guard]
+```
 
-#### E. Özel Operasyonlar ve Hibrit Harp Komutanlığı (ÖHK)
-*   **Psikolojik Harekat (PSYOPS)**: Bilgi dezenformasyonu ile düşman toplumunun ve ordusunun moralini çökertme.
-*   **Asimetrik Direniş**: İşgal durumunda hücre bazlı gayrinizami harp koordinasyonu.
+#### 3.3. Deniz ve Derinlik Hakimiyet Komutanlığı (DNHK)
+Mavi Vatan ve uluslararası sulardaki çıkarların güvencesidir.
+- **⚓ Teşkilat Yapısı**:
+    - **Sancak Görev Grubu (Uçak Gemisi)**: Uçak gemisi etrafında şekillenen stratejik vuruş grubu.
+    - **Gölge Filosu (Denizaltı)**: AIP ve nükleer denizaltılarla derinlik hakimiyeti.
+    - **İnsansız Deniz Filosu (İDA)**: Kamikaze ve gözlem botlarından oluşan sürü ağı.
+- **🛠️ Ana Platformlar**: TCG-Anadolu UMF (LHD), Piri-Reis II (Denizaltı), Albatros-S (İDA Sürüsü).
+
+```mermaid
+graph TD
+    D[DNHK HQ] --> D1[Yüzey Grupları]
+    D --> D2[Denizaltı Filosu]
+    D --> D3[İnsansız Filo]
+    D3 --> D3a[Albatros-S Sürüsü]
+```
+
+#### 3.4. Siber ve Elektromanyetik Spektrum Komutanlığı (SESK)
+Geleceğin savaşlarının kazanılacağı dijital ve radyolojik merkezdir.
+- **📡 Teşkilat Yapısı**:
+    - **Siber Taarruz Alayı**: Düşman kritik altyapılarına yönelik siber operasyonlar.
+    - **Spektrum Hakimiyet Birimi**: Savaş sahasında radar ve telsiz haberleşmesini felç etme (Jamming).
+    - **Kripto Analiz Laboratuvarı**: Kuantum sonrası şifreleme ve deşifreleme işlemleri.
+- **🛠️ Ana Platformlar**: Cyber-Pulse (Saldırı Yazılımı), Koral-UMF (Elektronik Harp), Kuantum-Shield.
+
+```mermaid
+graph TD
+    S[SESK HQ] --> S1[Siber Taarruz]
+    S --> S2[Elektronik Harp]
+    S --> S3[Kriptoloji]
+    S2 --> S2a[Spektrum Dominasyonu]
+```
+
+#### 3.5. Özel Operasyonlar ve Hibrit Harp Komutanlığı (ÖHK)
+Asimetrik tehditlerin imhası ve psikolojik üstünlüğün sağlanması.
+- **🗡️ Teşkilat Yapısı**:
+    - **Pusat Timleri (Sızma)**: Düşman hatlarının gerisinde nokta operasyon ve sabotaj.
+    - **Psikolojik Harp Operasyon Merkezi (PHOM)**: Bilgi dezenformasyonu ve algı operasyonları.
+    - **Gayrinizami Harp Hücreleri**: İşgal anında direniş örgütleme ve lojistik sabotaj.
+- **🛠️ Ana Platformlar**: Göktürk-X (Stratejik Gizlilik), Echo-Node (PSYOPS Cihazı), Nano-Breach (Sızma Kiti).
+
+```mermaid
+graph TD
+    O[ÖHK HQ] --> O1[Özel Timler]
+    O --> O2[Psikolojik Harp]
+    O --> O3[Direniş Hücreleri]
+    O1 --> O1a[Pusat Timi]
+```
 
 ---
 
